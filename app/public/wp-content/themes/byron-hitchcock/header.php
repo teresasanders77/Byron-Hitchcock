@@ -3,25 +3,21 @@
 
 <head>
   <?php wp_head(); ?>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <header class="site-header">
-    <div class="topnav" id="myTopnav">
-      <div id="siteTitleWrapper">
-        <h1 id="siteTitle"><a>Byron Hitchcock</a></h1>
-      </div>
-      <nav class="main-navigation">
-        <a href="#" class="active">HOME</a>
-        <a href="<?php echo site_url('/about-us') ?>">ABOUT</a>
-        <a href="#">CURRENT PROJECTS</a>
-        <a href="#">CONTACT</a>
-        <a href="#">RECOMMENDATIONS</a>
-        <a href="#">THE BACH PROJECT</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
-    </div>
+  <header class="banner">
+    <button id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu"></button>
+    <div class="brand"><a href="">&bopf;</a></div>
   </header>
+
+  <nav id="menu" aria-hidden="true" aria-labelledby="menu-toggle" role="navigation">
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">CURRENT PROJECTS</a></li>
+      <li><a href="#">CONTACT</a></li>
+      <li><a href="#">RECOMMENDATIONS</a></li>
+      <li><a href="#">THE BACH PROJECT</a></li>
+    </ul>
+  </nav>
