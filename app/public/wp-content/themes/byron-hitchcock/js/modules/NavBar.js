@@ -1,5 +1,6 @@
 class NavBar {
   myFunction() {
+    alert('test');
     $(document).ready(function () {
       $('#menu-toggle, #menu > ul > li > a').click(function (e) {
         var $toggle = $(this);

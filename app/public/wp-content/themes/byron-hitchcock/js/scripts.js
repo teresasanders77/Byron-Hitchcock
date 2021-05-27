@@ -1,5 +1,3 @@
-import "../css/style.css"
-
 // Our modules / classes
 import NavBar from "./modules/NavBar"
 
