@@ -1,13 +1,17 @@
-// Our modules / classes
-import NavBar from "./modules/NavBar"
+jQuery(function () {
+  jQuery('#menu-toggle, #menu > ul > li > a').unbind("click").click(function (e) {
+    var jQuerytoggle = jQuery(this);
+    var jQuerymenu = jQuery('#' + jQuery(this).attr('aria-controls'));
 
-
-
-// Instantiate a new object using our modules/classes
-var navBar = new NavBar()
-
-
-// Allow new JS and CSS to load in browser without a traditional page refresh
-if (module.hot) {
-  module.hot.accept()
-}
+    if (jQuerymenu.attr('aria-hidden') == 'true') {
+      jQuery('body').addClass('open');
+      jQuerymenu.attr('aria-hidden', 'false');
+      jQuerytoggle.attr('aria-expanded', 'true');
+    }
+    else if (jQuerymenu.attr('aria-hidden') == 'false') {
+      jQuery('body').removeClass('open');
+      jQuerymenu.attr('aria-hidden', 'true');
+      jQuerytoggle.attr('aria-expanded', 'faremove');
+    }
+  });
+});
