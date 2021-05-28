@@ -65,6 +65,7 @@ header.banner {
      -moz-border-radius: 50px;
           border-radius: 50px;
   background: transparent;
+  margin-top: 2%; 
 }
 #menu-toggle:before,
 #menu-toggle:after {
@@ -107,30 +108,21 @@ header.banner {
           transform: rotate(45deg);
 }
 /* A COMES AFTER B */
+
 .brand {
-  float: right;
-  height: 51px;
-
-  font-size: 70px;
-  font-weight: 100;
-  line-height: .6;
-}
-.brand a {
-  -webkit-transition: all .350s ease;
-     -moz-transition: all .350s ease;
-       -o-transition: all .350s ease;
-          transition: all .350s ease;
-  text-decoration: none;
-
-  color: #ccc;
+  padding: 0px;
+  margin: 0px;
+  margin-top: .5%; 
+  height: auto;
+  float: right; 
 }
 .brand a:hover {
   cursor: pointer;
 
-  color: #fff;
 }
-.open .brand {
-  color: #fff;
+
+hr {
+  margin-top: 3%; 
 }
 /* OVERLAY MENU */
 #menu {
@@ -199,45 +191,6 @@ header.banner {
 }
 
 /* FOOTER */
-html {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-body {
-	font-family: sans-serif;
-}
-
-section {
-	background-color: #ffffff;
-	min-height: 100vh;
-	padding: 100px;
-	position: relative;
-	width: 100%;
-	z-index: 10;
-}
-
-.margin-400 {
-	margin-bottom: 400px;
-}
-
-section img {
-	height: 100%;
-	left: 0;
-	object-fit: cover;
-	position: absolute;
-	top: 0;
-	width: 100%;
-}
-
-section h2 {
-	font-size: 4em;
-}
-
-section p {
-	font-size: 1.2em;
-	margin: 1rem 0;
-}
-
 footer {
   position: absolute;
   right: 0;

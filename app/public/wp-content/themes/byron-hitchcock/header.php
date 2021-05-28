@@ -24,16 +24,16 @@ add_action('wp_enqueue_scripts', 'enqueue_header_scripts');
 <body>
   <header class="banner">
     <button id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu"></button>
-    <div class="brand"><a href="">&bopf;</a></div>
+    <a href="/"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-White.png" width="100" alt="Byron Logo"></a>
   </header>
 
   <nav id="menu" aria-hidden="true" aria-labelledby="menu-toggle" role="navigation">
     <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">CURRENT PROJECTS</a></li>
-      <li><a href="#">CONTACT</a></li>
-      <li><a href="#">RECOMMENDATIONS</a></li>
-      <li><a href="#">THE BACH PROJECT</a></li>
+      <li><a href="/">HOME</a></li>
+      <li><a href="/about">ABOUT</a></li>
+      <li><a href="/current-projects">CURRENT PROJECTS</a></li>
+      <li><a href="/contact">CONTACT</a></li>
+      <li><a href="/recommendations">RECOMMENDATIONS</a></li>
+      <li><a href="/bach-project">THE BACH PROJECT</a></li>
     </ul>
   </nav>
