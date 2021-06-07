@@ -1,3 +1,4 @@
+// Function for navigation bar overlay
 jQuery(function () {
   jQuery('#menu-toggle, #menu > ul > li > a').unbind("click").click(function (e) {
     var jQuerytoggle = jQuery(this);
