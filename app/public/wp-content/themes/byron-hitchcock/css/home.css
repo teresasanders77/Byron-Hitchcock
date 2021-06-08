@@ -5,6 +5,34 @@ blockquote {
   line-height: 2em;
 }
 
+.bio-teaser {
+  text-align: center; 
+  background-color: #072A54;
+  color: #FFF; 
+  padding: 4% 15%; 
+}
+#spacer {
+  height: 100vh; 
+}
+p {
+  margin-bottom: 5%;
+}
+.button-small {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fb2056;
+  padding: 3%;
+  border-radius: 11px;
+  font-weight:bold;
+}
+.button-small:hover {
+  color: #fb2056;
+  background-color: #fff;
+  border-color: #fb2056;
+  border-width: 1px; 
+  border-style:solid;
+}
+
 
 /* iPad Portrait */
 @media only screen 
@@ -14,6 +42,9 @@ blockquote {
       font-size: 35px;
       margin-top: 30%;
       line-height: 1.5em;
+    }
+    .button-small {
+      padding: 2%; 
     }
   }
 
@@ -27,6 +58,9 @@ blockquote {
       margin-top: 25%;
       line-height: 1.5em;
     }
+    .button-small {
+      padding: 2%; 
+    }
   }
 
   /* Desktops */
@@ -36,5 +70,8 @@ blockquote {
     margin-top: 35%;
     line-height: 1.5em;
     color: #fff;
+  }
+  .button-small {
+    padding: 1%; 
   }
 }
