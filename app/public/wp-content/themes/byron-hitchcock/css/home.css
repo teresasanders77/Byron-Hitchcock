@@ -14,8 +14,12 @@ blockquote {
 #spacer {
   height: 100vh; 
 }
+h2 {
+  font-size: 2em; 
+}
 p {
   margin-bottom: 5%;
+  font-size: 17px; 
 }
 
  button {
@@ -96,8 +100,13 @@ p {
  button:hover .button-text {
 	 color: #fff;
 }
+.vid-container {
+  padding: 5%;
+  background-color: black;
+}
 .slider {
   background-color: black; 
+  padding:5%; 
 }
 
  

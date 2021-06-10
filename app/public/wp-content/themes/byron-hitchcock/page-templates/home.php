@@ -40,9 +40,11 @@ get_header();
           echo do_shortcode('[smartslider3 slider="2"]');
           ?>
         </div>
-      </div>
-    </div><!-- .entry-content -->
-  </div>
+        <div class="vid-container">
+          <?php echo do_shortcode('[Rich_Web_Video id="1"]'); ?>
+        </div>
+      </div><!-- .entry-content -->
+    </div>
 
 </section><!-- #post-<?php the_ID(); ?> -->
 
