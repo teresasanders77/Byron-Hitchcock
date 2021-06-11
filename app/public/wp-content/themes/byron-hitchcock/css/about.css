@@ -1,0 +1,53 @@
+.content-wrapper {
+  padding: 1% 10%; 
+}
+.right {
+  color: #fff; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.left img {
+  width:75%; 
+  height: auto; 
+}
+
+
+
+@media screen and (min-width: 20rem) {
+  .left, .right {
+    width: 100%;
+text-align: center;
+  }
+}
+
+@media screen and (min-width: 70rem) {
+  .left {
+    float: left;
+    width: 50%;
+  }
+  .right {
+    float: right;
+    width: 50%;
+  }
+}
+
+ /* iPad */
+ @media screen and (min-device-width: 1024px) {
+  .left img {
+    width:50%; 
+    height: auto; 
+  }
+ }
+
+   /* Desktops */
+@media screen and (min-device-width: 1341px) {
+  .left img {
+    width:75%; 
+    height: auto; 
+  }
+}

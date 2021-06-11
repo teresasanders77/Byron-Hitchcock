@@ -8,23 +8,28 @@ $site_url = get_site_url();
 // Retrieve Header for site.
 get_header();
 ?>
+<header class="banner">
+  <button id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu"></button>
+  <a href="/"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-Black.png" width="100" alt="Byron Logo"></a>
+</header>
 
-<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <div id="home_page_wrapper">
-    <div id="spacer">
-      <blockquote>
-        <em>"A FEARLESSLY EXPRESSIVE SOLOIST"</em>
-        <br>
-        <cite>- THE BOSTON GLOBE</cite>
-      </blockquote>
-    </div>
-    <div class="entry-content">
-      <div class="content-wrapper">
+<body class="home">
+  <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div id="home_page_wrapper">
+      <div id="spacer">
+        <blockquote>
+          <em>"A FEARLESSLY EXPRESSIVE SOLOIST"</em>
+          <br>
+          <cite>- THE BOSTON GLOBE</cite>
+        </blockquote>
+      </div>
+      <div class="entry-content">
+        <!-- <div class="content-wrapper"> -->
         <div class="bio-teaser">
           <?php if (get_field('text')) : ?>
             <?php the_field('text'); ?>
           <?php endif; ?>
-          <div id="container">
+          <div id="container-home">
             <button class="learn-more">
               <a href="/about">
                 <span class="circle" aria-hidden="true">
@@ -46,8 +51,8 @@ get_header();
       </div><!-- .entry-content -->
     </div>
 
-</section><!-- #post-<?php the_ID(); ?> -->
+  </section><!-- #post-<?php the_ID(); ?> -->
 
-<?php
-get_footer();
-?>
+  <?php
+  get_footer();
+  ?>
