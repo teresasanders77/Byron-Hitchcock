@@ -9,10 +9,28 @@ $site_url = get_site_url();
 get_header();
 ?>
 
+<header class="banner">
+  <div class="header-text">
+    <button id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu" style="margin-top: 0"></button>
+    <h1>Current Projects</h1>
+    <a href="/"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-White.png" width="100" alt="Byron Logo"></a>
+  </div>
+</header>
+
+
 <body class="current-projects-body">
   <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
     <div class="entry-content">
+      <div class="top-section">
+        <?php
+        $image = get_field('image');
+        $size = 'custom size';
+        if ($image) {
+          echo wp_get_attachment_image($image, $size);
+        }
+        ?>
+      </div>
       <div class="current-projects">
         <div class="card">
           <div class="layer"></div>

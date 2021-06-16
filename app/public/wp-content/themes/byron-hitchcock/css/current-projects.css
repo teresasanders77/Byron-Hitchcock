@@ -7,23 +7,58 @@
   background: #262626; 
 }
 
+header .banner {
+  margin-top: 0 !important; 
+}
+.header-text {
+  margin-top: -5%; 
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #FFF; 
+  font-size: 3em; 
+  position:relative; 
+}
 .current-projects {
   margin: 200px auto 100px; 
   display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 20px; 
+  /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+  grid-gap: 5em; 
 }
 
+.top-section {
+  width: 100%;
+  height: 20vh;
+  overflow: hidden; 
+}
+
+.top-section img {
+  height: auto;
+  width: 100%;
+  margin-top: 15em;
+  top: 0px;
+  left: 0;
+  position: absolute;
+}
+
+
+
 .current-projects .card {
-  position: relative; 
-  width: 350px; 
-  margin: 0 auto; 
+  position: relative;
+  width: 40em;
+  height: 40em;
+  margin: 0 auto;
   background: #333;
-  padding: 20px; 
+  padding: 20px;
   box-sizing: border-box;
   text-align: center;
-  box-shadow: 0 10px 40px rgba(0,0,0,.5); 
-  overflow: hidden; 
+  box-shadow: 0 10px 40px rgb(0 0 0 / 50%);
+  overflow: hidden;
 }
 
 .current-projects .card .layer {
@@ -75,4 +110,28 @@ transition: 0.5s;
 
 .current-projects .card:hover .content .details h2 span {
   color: #fff; 
+}
+
+/* IPAD */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .current-projects {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 0; 
+  }
+  .current-projects .card {
+    width: 24em; 
+    margin: 7em auto 0
+  }
+}
+
+/* IPAD LANDSCAPE */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .current-projects {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 0; 
+  }
+  .current-projects .card {
+    width: 24em; 
+    margin: 15em auto 0;
+  }
 }
