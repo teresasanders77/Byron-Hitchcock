@@ -208,6 +208,8 @@ footer {
   text-align: center;
   color: white; 
   font-size: 1.2em; 
+  position: fixed;
+  overflow-y: auto;
 }
 
 
