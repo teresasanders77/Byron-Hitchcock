@@ -117,7 +117,7 @@ get_header();
               </p>
             </div>
           </div>
-          <div class="spacer"></div>
+          <div class="spacer-current-projects"></div>
         </div>
       </div>
     </div><!-- .entry-content -->

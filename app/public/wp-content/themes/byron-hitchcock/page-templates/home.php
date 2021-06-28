@@ -48,8 +48,9 @@ get_header();
         <div class="vid-container">
           <?php echo do_shortcode('[Rich_Web_Video id="1"]'); ?>
         </div>
-      </div><!-- .entry-content -->
-    </div>
+        <div class="spacer">
+        </div><!-- .entry-content -->
+      </div>
 
   </section><!-- #post-<?php the_ID(); ?> -->
 
