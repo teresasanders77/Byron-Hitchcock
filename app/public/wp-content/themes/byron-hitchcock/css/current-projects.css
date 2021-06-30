@@ -244,4 +244,8 @@ transition: 0.5s;
       .ravel {
         margin-top: -100px!important; 
       }
+      img.attachment-custom.size.size-custom.size {
+        width: auto;
+        height: auto;
+      }
   }

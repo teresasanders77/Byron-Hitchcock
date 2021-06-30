@@ -112,3 +112,52 @@ div.wpforms-container-full {
   margin-right: 0; 
 }
   }
+
+  /* Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+  header .banner {
+    margin-top: 0 !important; 
+  }
+  .header-text {
+    text-align: center; 
+    margin-top: 4%; 
+    font-size: 1.5em;
+    margin-bottom: -150px; 
+  }
+  .contact-title {
+    font-size: 2em; 
+  }
+  .contact-info {
+    font-size: 1em; 
+  }
+  
+  .row {
+    display: flex;
+    flex-flow: row; 
+    margin-top: -13%;
+  }
+  
+  .column {
+    width: 100%; 
+    padding: 5%; 
+  }
+
+  .column.image {
+    margin-top: 7%; 
+  }
+  img.attachment-custom.size.size-custom.size {
+    width: 20em;
+    height: auto;
+  }
+  
+  div.wpforms-container-full {
+    margin-left: 0;
+    margin-right: 0; 
+  }
+
+}
+

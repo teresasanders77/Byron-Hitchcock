@@ -30,9 +30,9 @@ get_header();
           </div>
           <div class="column">
             <div class="form-text">
-              <h1>CONTACT ME</h1>
-              <h2>(720) 205-2467</h2>
-              <h2>byronhit@gmail.com</h2>
+              <h1 class="contact-title">CONTACT ME</h1>
+              <h2 class="contact-info">(720) 205-2467</h2>
+              <h2 class="contact-info">byronhit@gmail.com</h2>
             </div>
             <?php the_content(); ?>
           </div>
