@@ -21,7 +21,7 @@ get_header();
         <h1>What I'm Working On</h1>
       </div>
       <div class="top-section">
-        <div class="mobile">
+        <div class="mobile-projects">
           <?php
           $image = get_field('image');
           $size = 'custom size';
@@ -29,7 +29,7 @@ get_header();
             echo wp_get_attachment_image($image, $size);
           } ?>
         </div>
-        <div class="desktop">
+        <div class="desktop-projects">
           <?php
           $image_desktop = get_field('image2');
           $size = 'custom size';

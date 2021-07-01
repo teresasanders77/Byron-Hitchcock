@@ -12,8 +12,8 @@ header .banner {
 }
 .header-text {
   text-align: center; 
-  margin-top: 4%; 
-  font-size: 1.5em;
+  margin-top: 8%; 
+  font-size: 1em;
   margin-bottom: -150px; 
 }
 
@@ -46,7 +46,7 @@ h1 {
   height: 20vh;
 }
 
-.desktop {
+.desktop-projects img {
   display: none; 
 }
 .top-section img {
@@ -193,6 +193,9 @@ transition: 0.5s;
     .recital-description {
       font-size:1em
     }
+    img.attachment-custom.size.size-custom.size {
+      width: 100%; 
+    }
 }
 
 
@@ -203,16 +206,19 @@ transition: 0.5s;
      .current{
       margin-top: 0 !important; 
     }
-    .mobile {
+    .mobile-projects img {
       display: none; 
     }
-    .desktop {
+    .desktop-projects img {
       display: block; 
     }
     .current-projects .card .content p {
       font-size: 1.2em;
       line-height: 1.4em;
       color: #fff;
+    }
+    .top-section {
+      height: 4vh; 
     }
     .top-section img {
       opacity: .5;
