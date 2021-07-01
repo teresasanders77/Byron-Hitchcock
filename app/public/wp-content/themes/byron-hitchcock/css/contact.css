@@ -161,3 +161,43 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 }
 
+/* Laptops and up */
+@media only screen 
+  and (min-device-width: 1367px) {
+    .row {
+      display: flex;
+      flex-flow: row; 
+      margin-top: -30%;
+    }
+    
+    .column {
+      width: 100%; 
+      padding: 5%; 
+    }
+  
+    .column.image {
+      margin-top: 7%; 
+    }
+    img.attachment-custom.size.size-custom.size {
+      width: 20em;
+      height: auto;
+    }
+
+    .form-text {
+      margin-top: 30%; 
+    }
+    
+    div.wpforms-container-full {
+      margin-left: 0;
+      margin-right: 0; 
+    }
+
+    .contact-title {
+      font-size: 2em; 
+    }
+    .contact-info {
+      font-size: 1em; 
+    }
+  
+  }
+
