@@ -5,7 +5,7 @@
     color: #ccc;
 }
 header.banner {
-    z-index: -1;
+    height: 5%;
 }
 .bach-header-text {
     position: absolute;
@@ -92,7 +92,6 @@ a:hover {
 
 .drop-down-menu {
     display: block;
-    z-index: 0;
 }
 
 .menu-title {
