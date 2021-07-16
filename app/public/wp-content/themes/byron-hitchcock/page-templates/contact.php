@@ -19,7 +19,7 @@ get_header();
 
     <div class="entry-content">
       <div class="contact-page-wrapper">
-        <div class="row">
+        <div class="contact-row">
           <div class="column image">
             <?php
             $image = get_field('image');

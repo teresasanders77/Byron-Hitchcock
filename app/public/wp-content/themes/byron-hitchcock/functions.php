@@ -7,3 +7,5 @@ function byron_files()
 }
 
 add_action('wp_enqueue_scripts', 'byron_files');
+
+add_filter('acf/settings/remove_wp_meta_box', '__return_false');

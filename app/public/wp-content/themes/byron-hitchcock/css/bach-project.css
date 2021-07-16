@@ -1,8 +1,54 @@
-body {
+.bach-body {
     background: #292d33;
     font: 12px/20px Arial;
     padding: 20px;
     color: #ccc;
+}
+.bach-header-text {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+}
+#bach-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.one {
+    order: 1;
+    width: 100%;
+}
+.two {
+    order: 2;
+    width: 100%;
+}
+.three {
+    order: 3;
+    width: 100%;
+}
+.four {
+    order: 4;
+    width: 100%;
+}
+.five {
+    order: 5;
+    width: 100%;
+}
+.six {
+    order: 6;
+    width: 100%;
+}
+.seven {
+    order: 7;
+    width: 100%;
+}
+.eight {
+    order: 8;
+    width: 100%;
+}
+.video {
+    padding: 1%;
+    text-align: center;
 }
 
 p {
@@ -40,7 +86,7 @@ a:hover {
 
 .menu-title {
     cursor: pointer;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 .menu-title {
@@ -87,6 +133,8 @@ a:hover {
     background: #3d6d99;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5796d0), color-stop(100%, #3d6d99));
     background: -moz-linear-gradient(top, #5796d0 0%, #3d6d99 100%);
+    width: 80%;
+    margin: 0 auto;
 }
 
 :checked ~ .menu-title {
@@ -106,7 +154,6 @@ a:hover {
 
 .activate:checked ~ .drop-down {
     max-height: 100%;
-    padding: 4%;
 }
 
 .drop-down,
@@ -117,4 +164,53 @@ a:hover {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+.desktop-bach {
+    display: none;
+}
+
+.mobile-bach {
+    display: block;
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
+    .bach-header-text {
+        top: 10%;
+    }
+    iframe {
+        width: 100%;
+    }
+    .video {
+        width: 50%;
+    }
+    .desktop-bach {
+        display: none;
+    }
+
+    .mobile-bach {
+        display: block;
+    }
+}
+
+@media only screen and (min-device-width: 1366px) {
+    .bach-header-text {
+        top: 5%;
+    }
+    .desktop-bach img {
+        width: 100% !important;
+    }
+    iframe {
+        width: 100%;
+    }
+    .video {
+        width: 25%;
+    }
+    .desktop-bach {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .mobile-bach {
+        display: none;
+    }
 }
