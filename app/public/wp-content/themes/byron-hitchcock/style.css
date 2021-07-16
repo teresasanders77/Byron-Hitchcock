@@ -3,252 +3,241 @@ Theme Name: Byron Hitchcock
 Author: Teresa Loafman
 Version: 1.0
 */
-.home{
-  width: 100%;
-  height: 100%;
-  margin: 0;
+.home {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 
-  font-family: "Roboto", sans-serif;
-  font-size: 80%;
+    font-family: "Roboto", sans-serif;
+    font-size: 80%;
 
-  color: #232629;
-  background: url(images/Home-page-resized.jpg) no-repeat center center fixed;
-  background-position: 80% 100%; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    color: #232629;
+    background: url(images/Home-page-resized.jpg) no-repeat center center fixed;
+    background-position: 80% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .about {
-  background-color: black; 
+    background-color: black;
 }
 a {
-  color: #232629;
+    color: #232629;
 }
 p {
-  line-height: 1.7;
+    line-height: 1.7;
 }
 h2 {
-  font-family: "Lora", serif;
-  font-size: 1.7em;
-  line-height: 1;
+    font-family: "Lora", serif;
+    font-size: 1.7em;
+    line-height: 1;
 
-  letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 div {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 button:focus {
-  outline: none;
+    outline: none;
 }
 
 /* FIXED HEADER */
 header.banner {
-  margin-top: 5%; 
-  position: fixed;
-  top: 0;
-  z-index: 100;
+    margin-top: 5%;
+    position: fixed;
+    top: 0;
+    /* z-index: 100; */
 
-  width: 100%;
-  padding: 30px;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 /* MENU TOGGLE ICON */
 #menu-toggle {
-  position: relative;
-  width: 51px;
-  height: 51px;
+    position: relative;
+    width: 51px;
+    height: 51px;
 
-  cursor: pointer;
+    cursor: pointer;
 
-  border: 1px solid #FFF;
-  -webkit-border-radius: 50px;
-     -moz-border-radius: 50px;
-          border-radius: 50px;
-  background: transparent;
-  margin-top: 5%; 
+    border: 1px solid #fff;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: transparent;
+    margin-top: 5%;
 }
 #menu-toggle:before,
 #menu-toggle:after {
-  position: absolute;
+    position: absolute;
 
-  content: "";
-  content: "";
-  -webkit-transition: all .350s ease;
-     -moz-transition: all .350s ease;
-       -o-transition: all .350s ease;
-          transition: all .350s ease;
+    content: "";
+    content: "";
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 
-  background-color: #FFF;
+    background-color: #fff;
 }
 
 #menu-toggle:before {
-  top: 12px;
-  left: 25px;
+    top: 12px;
+    left: 25px;
 
-  width: 1px;
-  height: 27px;
+    width: 1px;
+    height: 27px;
 }
 #menu-toggle:after {
-  top: 25px;
-  left: 12px;
+    top: 25px;
+    left: 12px;
 
-  width: 27px;
-  height: 1px;
+    width: 27px;
+    height: 1px;
 }
 #menu-toggle:hover:before,
 #menu-toggle:hover:after {
-  -webkit-transform: rotate(5deg);
-      -ms-transform: rotate(5deg);
-          transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 .open #menu-toggle:before,
 .open #menu-toggle:after {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .brand {
-  padding: 0px;
-  margin: 0px;
-  margin-top: .5%; 
-  height: auto;
-  float: right; 
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0.5%;
+    height: auto;
+    float: right;
 }
 .brand a:hover {
-  cursor: pointer;
-
+    cursor: pointer;
 }
 
 hr {
-  margin-top: 3%; 
+    margin-top: 3%;
 }
 
 /* OVERLAY MENU */
 #menu {
-  position: fixed;
-  top: 0;
-  bottom: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
 
-  display: table;
-  visibility: hidden;
-  width: 100%;
-  height: 100%;
+    display: table;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
 
-  font-family: "Lora", serif;
+    font-family: "Lora", serif;
 
-  transition: opacity .5s, visibility .5s;
-  text-align: center;
+    transition: opacity 0.5s, visibility 0.5s;
+    text-align: center;
 
-  opacity: 0;
-  background-color: rgba(0, 0, 0, .85);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .open #menu {
-  visibility: visible;
+    visibility: visible;
 
-  opacity: 1;
-  z-index: 1; 
+    opacity: 1;
+    z-index: 1;
 }
 #menu ul {
-  display: table-cell;
-  padding: 0;
-  margin-top: 30px;
+    display: table-cell;
+    padding: 0;
+    margin-top: 30px;
 
-  list-style: none;
+    list-style: none;
 
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 #menu ul li a {
-  display: block;
+    display: block;
 
-  font-size: 28px;
-  font-weight: 100;
-  line-height: 80px;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 80px;
 
-  -webkit-transition: all .3s ease;
-     -moz-transition: all .3s ease;
-       -o-transition: all .3s ease;
-          transition: all .3s ease;
-  text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
 
-  color: #fff;
+    color: #fff;
 }
 #menu ul li a:hover {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 /* CONTENT CONTAINER */
 .container {
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
-  z-index: -100;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: -100;
 
-  max-width: 550px;
-  min-width: 200px;
-  padding: 20px 40px;
+    max-width: 550px;
+    min-width: 200px;
+    padding: 20px 40px;
 
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .spacer {
-  background-color: black;
-  padding: 8%;
+    background-color: black;
+    padding: 8%;
 }
 /* FOOTER */
 footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1em;
-  background-color: black;
-  text-align: center;
-  color: white; 
-  font-size: 1.2em; 
-  position: fixed;
-  overflow-y: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    position: fixed;
+    overflow-y: auto;
 }
 
-
 /* iPad Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     html {
-    background-position: 70% 100%; 
+        background-position: 70% 100%;
     }
-  }
+}
 
-  /* iPad Landscape */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1340px) 
-and (orientation: landscape) 
-and (-webkit-min-device-pixel-ratio: 1) {
-  html {
-    background-position: 50% 50%; 
-  }
-  #menu-toggle {
-    margin-top: 3%
-  }
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1340px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+        background-position: 50% 50%;
+    }
+    #menu-toggle {
+        margin-top: 3%;
+    }
 }
 
 /* Desktops */
 @media screen and (min-device-width: 1341px) {
-
     header.banner {
-      margin-top:1%; 
+        margin-top: 1%;
     }
     #menu-toggle {
-      margin-top: 1%;
+        margin-top: 1%;
     }
 }
