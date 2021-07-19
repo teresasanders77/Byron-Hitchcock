@@ -1,257 +1,256 @@
 .current-projects-body {
-  margin: 0; 
-  padding: 0;
-  width: 100%; 
-  height: 100%; 
-  font-family: sans-serif; 
-  background: #262626; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: #262626;
+}
+
+.elementor-image-box-title {
+    font-size: 15pt;
+}
+
+h4,
+h2 {
+    font-size: 14pt !important;
+}
+
+.projects-entry-content {
+    overflow: hidden;
 }
 
 header .banner {
-  margin-top: 0 !important; 
+    margin-top: 0 !important;
 }
-.header-text {
-  text-align: center; 
-  margin-top: 8%; 
-  font-size: 1em;
-  margin-bottom: -150px; 
+.projects-header-text {
+    text-align: center;
+    font-size: 9pt;
+    margin-top: 5%;
 }
 
 h1 {
-  color: #FFF; 
+    color: #fff;
 }
 
 .recital-title {
-  color: #fff;
-  text-align: center;
+    color: #fff;
+    text-align: center;
 }
 
 .engelwood {
-  font-size:.8em; 
-  margin-top:20px
+    font-size: 0.8em;
+    margin-top: 20px;
 }
 
 .recital-description {
-  font-size:.7em
+    font-size: 0.7em;
 }
 .current-projects {
-  margin-top: 25vw; 
+    margin-top: 8%;
 }
 .projects-wrapper {
-  padding: 0 5% 25% 5%;
+    padding: 0 5% 25% 5%;
 }
 
 .top-section {
-  width: 100%;
-  height: 20vh;
+    width: 100%;
+    height: 20vh;
 }
 
 .desktop-projects img {
-  display: none; 
+    display: none;
 }
 .top-section img {
-  height: auto;
-  width: 100%;
-  margin-top: 15em;
+    height: auto;
+    width: 100%;
+    margin-top: 2em;
 }
 
-
-
 .current-projects .card {
-  position: relative;
-  width: 40em;
-  height: auto;
-  margin: 5% auto;
-  background: #333;
-  padding: 20px 10%;
-  box-sizing: border-box;
-  text-align: center;
-  box-shadow: 0 10px 40px rgb(0 0 0 / 50%);
-  overflow: hidden;
+    position: relative;
+    /* width: 40em; */
+    height: auto;
+    margin: 5% auto;
+    background: #333;
+    padding: 20px 10%;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 50%);
+    overflow: hidden;
 }
 
 .current-projects .card .layer {
-  position: absolute;
-  top: calc(100% - 2px); 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
-  background: linear-gradient(#072A54, #fb2056); 
-  transition: 0.5s;
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#072a54, #fb2056);
+    transition: 0.5s;
 }
 
 .current-projects .card:hover .layer {
-  top: 0; 
+    top: 0;
 }
 
 .current-projects .card .content {
-  position: relative;  
+    position: relative;
 }
 
 .current-projects .card .content p {
-  font-size: 1.5em;
-  line-height: 1.3em;
-  color: #fff;
+    font-size: 12pt;
+    line-height: 1.3em;
+    color: #fff;
 }
 
-.current-projects .card .content .details h2{
-  font-size: 18px; 
-  color: #fff; 
+.current-projects .card .content .details h2 {
+    font-size: 18px;
+    color: #fff;
 }
 
 .current-projects .card .content .details h2 span {
-color: #03a9f4;
-font-size: 14px; 
-transition: 0.5s; 
+    color: #03a9f4;
+    font-size: 14px;
+    transition: 0.5s;
 }
 
 .current-projects .card:hover .content .details h2 span {
-  color: #fff; 
+    color: #fff;
 }
 
 .spacer-current-projects {
-  padding: 10%; 
+    padding: 10%;
 }
 
-
-
 /* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .header-text {
-      margin-top: 8%; 
-      margin-bottom: -190px; 
+        margin-top: 8%;
+        margin-bottom: -190px;
     }
     .current-projects {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 5%;      
-       margin-top: 30vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5%;
+        margin-top: 15vw;
     }
     .current-projects .card .content p {
-      font-size: 1.2em;
-      line-height: 1.4em;
-      color: #fff;
+        line-height: 1.4em;
+        color: #fff;
     }
     .projects-wrapper {
-      margin: 0 5% 25% 5%; 
+        margin: 0 5% 25% 5%;
+        height: 200em;
     }
-    .current-projects .card { 
-      width: auto; 
+    .current-projects .card {
+        width: auto;
     }
     .recital-title {
-      grid-column: 1 / span 2;   
-      margin: -20px;
+        grid-column: 1 / span 2;
+        margin: -20px;
     }
     .engelwood {
-      font-size:1.2em; 
-      margin-top:20px
+        font-size: 1.2em;
+        margin-top: 20px;
     }
     .recital-description {
-      font-size:1em
+        font-size: 1em;
+    }
+    .spacer-current-projects {
+        padding: 0;
     }
 }
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1366px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     .header-text {
-      margin-top: 8%; 
-      margin-bottom: -190px; 
+        margin-top: 8%;
+        margin-bottom: -190px;
     }
     .current-projects {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 5%;      
-       margin-top: 40vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5%;
+        margin-top: 25vw;
     }
     .current-projects .card .content p {
-      font-size: 1em;
-      line-height: 1.4em;
-      color: #fff;
+        font-size: 1em;
+        line-height: 1.4em;
+        color: #fff;
     }
     .projects-wrapper {
-      margin: 0 10%; 
+        margin: 0 10%;
+        height: 200em;
     }
-    .current-projects .card { 
-      width: auto; 
+    .current-projects .card {
+        width: auto;
     }
     .recital-title {
-      grid-column: 1 / span 2;   
-      margin: -20px;
+        grid-column: 1 / span 2;
+        margin: -20px;
     }
     .engelwood {
-      font-size:1.2em; 
-      margin-top:20px
+        font-size: 1.2em;
+        margin-top: 20px;
     }
     .recital-description {
-      font-size:1em
+        font-size: 1em;
     }
     img.attachment-custom.size.size-custom.size {
-      width: 100%; 
+        width: 100%;
     }
 }
 
-
 /* Laptops and up */
-@media only screen 
-  and (min-device-width: 1367px) {
-    header.banner,
-     .current{
-      margin-top: 0 !important; 
-    }
+@media only screen and (min-device-width: 1367px) {
     .mobile-projects img {
-      display: none; 
+        display: none;
     }
     .desktop-projects img {
-      display: block; 
+        display: block;
     }
     .current-projects .card .content p {
-      font-size: 1.2em;
-      line-height: 1.4em;
-      color: #fff;
+        font-size: 1.2em;
+        line-height: 1.4em;
+        color: #fff;
     }
     .top-section {
-      height: 4vh; 
+        height: 4vh;
     }
     .top-section img {
-      opacity: .5;
-      margin-top: 13em;
+        opacity: 0.5;
+        margin-top: 3em;
     }
-      .current-projects {
+    .current-projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 5%;      
-         margin-top: 20vw;
-      }
-      .projects-wrapper {
-        margin: 0px 10%; 
-      }
-      .current-projects .card { 
-        width: 40em; 
-      }
-      .recital-title {
-        grid-column: 1 / span 2;   
+        grid-gap: 5%;
+        margin-top: 20vw;
+    }
+    .projects-wrapper {
+        margin: 0px 10%;
+        height: 217em;
+    }
+    .current-projects .card {
+        width: 40em;
+    }
+    .recital-title {
+        grid-column: 1 / span 2;
         margin: -20px;
-      }
-      .engelwood {
-        font-size:1.4em; 
-        margin-top:20px
-      }
-      .recital-description {
-        font-size:1em
-      }
-      .ravel {
-        margin-top: -100px!important; 
-      }
-      img.attachment-custom.size.size-custom.size {
+    }
+    .engelwood {
+        font-size: 1.4em;
+        margin-top: 20px;
+    }
+    .recital-description {
+        font-size: 1em;
+    }
+    .ravel {
+        margin-top: -100px !important;
+    }
+    img.attachment-custom.size.size-custom.size {
         width: auto;
         height: auto;
-      }
-  }
+    }
+}

@@ -1,53 +1,61 @@
 .content-wrapper {
-  padding: 1% 10%; 
+    padding: 1% 10%;
 }
 .right {
-  color: #fff; 
+    color: #fff;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .left img {
-  width:75%; 
-  height: auto; 
+    width: 75%;
+    height: auto;
 }
 
-
+.about-spacer {
+    padding: 15%;
+}
 
 @media screen and (min-width: 20rem) {
-  .left, .right {
-    width: 100%;
-text-align: center;
-  }
+    .left,
+    .right {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 70rem) {
-  .left {
-    float: left;
-    width: 50%;
-  }
-  .right {
-    float: right;
-    width: 50%;
-  }
+    .left {
+        float: left;
+        width: 50%;
+    }
 }
 
- /* iPad */
- @media screen and (min-device-width: 1024px) {
-  .left img {
-    width:50%; 
-    height: auto; 
-  }
- }
+/* iPad */
+@media screen and (min-device-width: 1024px) {
+    .left img {
+        width: 50%;
+        height: auto;
+    }
+    .about-spacer {
+        padding: 5%;
+    }
+}
 
-   /* Desktops */
+/* Desktops */
 @media screen and (min-device-width: 1341px) {
-  .left img {
-    width:75%; 
-    height: auto; 
-  }
+    .left img {
+        width: 75%;
+        height: auto;
+    }
+    .content-wrapper {
+        padding: 5% 20%;
+    }
+    #floated {
+        float: left;
+    }
 }

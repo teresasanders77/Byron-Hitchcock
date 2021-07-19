@@ -10,14 +10,14 @@ get_header();
 ?>
 
 <header class="banner current">
-  <button id="menu-toggle" style="margin-top: 2%" aria-label="Menu" aria-expanded="false" aria-controls="menu" style="margin-top: 0"></button>
-  <a href="/"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-White.png" width="100" alt="Byron Logo"></a>
+  <button id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu"></button>
+  <a href="/"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-thick-white.png" width="100" alt="Byron Logo"></a>
 </header>
 
 <body class="current-projects-body">
   <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <div class="entry-content">
-      <div class="header-text">
+    <div class="projects-entry-content">
+      <div class="projects-header-text">
         <h1>What I'm Working On</h1>
       </div>
       <div class="top-section">
@@ -117,10 +117,10 @@ get_header();
               </p>
             </div>
           </div>
-          <div class="spacer-current-projects"></div>
         </div>
       </div>
     </div><!-- .entry-content -->
+    <div class="spacer-current-projects"></div>
 
   </section><!-- #post-<?php the_ID(); ?> -->
 
