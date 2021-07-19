@@ -1,0 +1,162 @@
+.recommendations-body {
+    background-color: black;
+}
+.recommendations-entry-content {
+    padding: 7% 7% 3% 7%;
+}
+p {
+    color: #fff;
+    text-align: center;
+    padding: 0 5%;
+}
+.mobile-recommendations {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2% 0;
+}
+.mobile-recommendations img {
+    width: 100%;
+    height: auto;
+}
+.desktop-recommendations {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2% 0;
+}
+.recommendations-header-text {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.columns {
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -0.4rem;
+    margin-right: -0.4rem;
+}
+.recommendation-column {
+    margin-bottom: 1rem;
+}
+.card {
+    border: none !important;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.card-header {
+    text-align: center;
+}
+.card-content {
+    position: absolute;
+    bottom: -100%;
+    background-color: #fff;
+    width: 100%;
+    transition: bottom 0.5s linear;
+}
+.recommendations-button {
+    text-align: center;
+    margin-bottom: 3%;
+}
+@media only screen and (max-width: 600px) {
+    /* .col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
+    .card-text {
+        font-size: 10px;
+    }
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.card-image img {
+    transition: all 1s ease;
+}
+
+@media only screen and (max-width: 1279px) {
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        left: 0;
+        display: block;
+    }
+    .card {
+        display: block;
+    }
+    .card-image {
+        display: block;
+    }
+    .card-content {
+        display: block;
+        position: relative;
+    }
+    .recommendations-text {
+        font-size: 12pt;
+    }
+    .card-text {
+        font-size: 10.5px;
+    }
+    .recommendations-spacer {
+        padding: 15%;
+    }
+}
+
+/* iPad Pro landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        left: 0;
+        display: block;
+    }
+    .card {
+        display: block;
+    }
+    .card-image {
+        display: block;
+    }
+    .card-content {
+        display: block;
+        position: relative;
+    }
+    .recommendations-text {
+        font-size: 12pt;
+    }
+    .card-text {
+        font-size: 10.5px;
+    }
+    .recommendations-spacer {
+        padding: 15%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .card-image:hover img {
+        transform: scale(1.1, 1.1);
+    }
+    .card-image:hover .card-content {
+        bottom: 0%;
+    }
+    /* .col-sm-12 {
+        flex: none;
+        max-width: 50%;
+    } */
+    .mobile-recommendations {
+        display: none;
+    }
+    .desktop-recommendations {
+        display: block;
+    }
+}

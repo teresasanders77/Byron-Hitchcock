@@ -16,7 +16,7 @@ get_header();
 <body class="bach-body">
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-<div class="bach-header-text">
+    <div class="bach-header-text">
         <h1>THE BACH PROJECT</h1>
       </div>
   <div class="entry-content">

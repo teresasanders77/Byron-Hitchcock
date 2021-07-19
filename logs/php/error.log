@@ -7544,3 +7544,63 @@ Stack trace:
 [02-Jul-2021 20:27:03 UTC] PHP   5. OriginCode_Gallery_Video_Galleries->load_video_gallery_page() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/class-wp-hook.php:292
 [02-Jul-2021 20:27:03 UTC] PHP   6. OriginCode_Gallery_Video_Galleries->edit_video_gallery() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/plugins/smart-grid-gallery/includes/admin/video-galleries-page.php:37
 [02-Jul-2021 20:27:03 UTC] PHP   7. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/plugins/smart-grid-gallery/includes/admin/video-galleries-page.php:189
+[16-Jul-2021 20:43:29 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 20:43:29 UTC] PHP Stack trace:
+[16-Jul-2021 20:43:29 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 20:43:29 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 20:43:29 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 20:43:29 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 20:48:48 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 20:48:48 UTC] PHP Stack trace:
+[16-Jul-2021 20:48:48 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 20:48:48 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 20:48:48 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 20:48:48 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 20:50:22 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 20:50:22 UTC] PHP Stack trace:
+[16-Jul-2021 20:50:22 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 20:50:22 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 20:50:22 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 20:50:22 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 20:51:39 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 20:51:39 UTC] PHP Stack trace:
+[16-Jul-2021 20:51:39 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 20:51:39 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 20:51:39 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 20:51:39 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 20:54:48 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 20:54:48 UTC] PHP Stack trace:
+[16-Jul-2021 20:54:48 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 20:54:48 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 20:54:48 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 20:54:48 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 20:55:55 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 20:55:55 UTC] PHP Stack trace:
+[16-Jul-2021 20:55:55 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 20:55:55 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 20:55:55 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 20:55:55 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 20:55:55 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 20:55:55 UTC] PHP Stack trace:
+[16-Jul-2021 20:55:55 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 20:55:55 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 20:55:55 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 20:55:55 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 21:05:42 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 21:05:42 UTC] PHP Stack trace:
+[16-Jul-2021 21:05:42 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 21:05:42 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 21:05:42 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 21:05:42 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 21:05:42 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 21:05:42 UTC] PHP Stack trace:
+[16-Jul-2021 21:05:42 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 21:05:42 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 21:05:42 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 21:05:42 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106
+[16-Jul-2021 21:06:13 UTC] PHP Warning:  Illegal string offset 'url' in /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-content/themes/byron-hitchcock/page-templates/recommendations.php on line 60
+[16-Jul-2021 21:06:13 UTC] PHP Stack trace:
+[16-Jul-2021 21:06:13 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:0
+[16-Jul-2021 21:06:13 UTC] PHP   2. require() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/index.php:17
+[16-Jul-2021 21:06:13 UTC] PHP   3. require_once() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-blog-header.php:19
+[16-Jul-2021 21:06:13 UTC] PHP   4. include() /Users/teresaloafman/Local Sites/byron-hitchcock/app/public/wp-includes/template-loader.php:106

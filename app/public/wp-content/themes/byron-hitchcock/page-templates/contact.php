@@ -1,5 +1,5 @@
 <?php
-/*  Template Name: Current Projects  */
+/*  Template Name: Cuontact  */
 
 
 // pull the site URL for utilization in the page to prevent migration issues.
