@@ -183,6 +183,9 @@ a:hover {
 .mobile-bach {
     display: block;
 }
+.brand {
+  margin-right: 5%!important; 
+}
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
     .bach-header-text {
         top: 10%;
@@ -204,7 +207,7 @@ a:hover {
 
 @media only screen and (min-device-width: 1366px) {
     .bach-header-text {
-        top: 5%;
+        top: 10%;
     }
     .desktop-bach img {
         width: 100% !important;
@@ -217,7 +220,7 @@ a:hover {
     }
     .desktop-bach {
         display: block;
-        margin-top: 5%;
+        margin-top: 8%;
         padding-right: 5%;
         padding-left: 5%;
     }

@@ -11,7 +11,7 @@ get_header();
 
 <header class="banner current">
   <button id="menu-toggle" style="margin-top: 2%" aria-label="Menu" aria-expanded="false" aria-controls="menu" style="margin-top: 0"></button>
-  <a href="/"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-White.png" width="100" alt="Byron Logo"></a>
+  <a href="/"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-thick-white.png" width="100" alt="Byron Logo"></a>
 </header>
 
 <body class="contact-body">

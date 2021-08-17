@@ -7,6 +7,9 @@
     background: black;
 }
 
+h1.contact-title {
+ font-size: 2em; 
+}
 header .banner {
     margin-top: 0 !important;
 }
@@ -31,6 +34,10 @@ h1 {
 .image {
     text-align: center;
 }
+img.attachment-custom.size.size-custom.size {
+  width: 85%; 
+  height: auto; 
+}
 
 .form-text {
     text-align: center;
@@ -47,6 +54,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  padding-bottom: 50%; 
     text-align: center;
 }
 

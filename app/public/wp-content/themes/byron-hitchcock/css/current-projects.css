@@ -13,7 +13,7 @@
 
 h4,
 h2 {
-    font-size: 14pt !important;
+    font-size: 20pt !important;
 }
 
 .projects-entry-content {
@@ -148,7 +148,7 @@ h1 {
     }
     .recital-title {
         grid-column: 1 / span 2;
-        margin: -20px;
+        margin: -30px;
     }
     .engelwood {
         font-size: 1.2em;
@@ -188,7 +188,7 @@ h1 {
     }
     .recital-title {
         grid-column: 1 / span 2;
-        margin: -20px;
+        margin: -30px;
     }
     .engelwood {
         font-size: 1.2em;
@@ -211,7 +211,7 @@ h1 {
         display: block;
     }
     .current-projects .card .content p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         line-height: 1.4em;
         color: #fff;
     }
