@@ -30,6 +30,11 @@ add_action('wp_enqueue_scripts', 'enqueue_header_scripts');
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
+<header class="banner current">
+  <button id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu""></button>
+  <a href=" /"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-thick-white.png" width="100" alt="Byron Logo"></a>
+</header>
+
 <nav id="menu" aria-hidden="true" aria-labelledby="menu-toggle" role="navigation">
   <ul>
     <li><a href="/">HOME</a></li>

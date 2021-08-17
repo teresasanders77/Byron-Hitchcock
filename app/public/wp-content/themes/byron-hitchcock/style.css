@@ -50,12 +50,13 @@ button:focus {
 
 /* FIXED HEADER */
 header.banner {
-    margin-top: 15%;
     position: fixed;
-    top: 0;
+    top: 2%;
+    left: 2%;
+    right: 2%; 
     z-index: 100;
 
-    width: 100%;
+    width: 96%;
     padding: 30px;
     box-sizing: border-box;
 }
@@ -66,7 +67,7 @@ header.banner {
     width: 51px;
     height: 51px;
     top: 0;
-    left: 10px;
+    left: 0px;
 
     cursor: pointer;
 
@@ -75,7 +76,6 @@ header.banner {
     -moz-border-radius: 50px;
     border-radius: 50px;
     background: transparent;
-    margin-top: 5%;
 }
 #menu-toggle:before,
 #menu-toggle:after {
@@ -120,9 +120,9 @@ header.banner {
 
 .brand {
     position: absolute;
-    top: 15px;
-    right: 10px;
-    width: 15%;
+    top: 0px;
+    right: 0px;
+    width: 60px; 
 }
 .brand a:hover {
     cursor: pointer;
@@ -230,10 +230,6 @@ footer {
     .brand {
         margin-right: 0;
         width: 8%;
-        margin-top: 2%;
-    }
-    header.banner {
-        margin-top: 3%;
     }
 }
 
@@ -243,22 +239,15 @@ footer {
         background-position: 50% 50%;
     }
     #menu-toggle {
-        margin-top: 3%;
         margin-left: 0;
     }
     .brand {
-        width: 8%;
-    }
-    header.banner {
-        margin-top: 3%;
+        width: 5%;
     }
 }
 
 /* Desktops */
 @media screen and (min-device-width: 1341px) {
-    header.banner {
-        margin-top: 1%;
-    }
     #menu-toggle {
         margin-top: 3.5%;
         margin-left: 1%;

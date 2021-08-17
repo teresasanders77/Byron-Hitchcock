@@ -9,10 +9,6 @@ $site_url = get_site_url();
 get_header();
 ?>
 
-<header class="banner current">
-  <button id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu"></button>
-  <a href="/"> <img class="brand" src="<?php echo get_template_directory_uri(); ?>/images/Byron-Logo-thick-white.png" width="100" alt="Byron Logo"></a>
-</header>
 
 <body class="current-projects-body">
   <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

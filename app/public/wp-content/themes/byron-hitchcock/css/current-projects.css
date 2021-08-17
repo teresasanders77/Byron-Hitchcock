@@ -20,13 +20,16 @@ h2 {
     overflow: hidden;
 }
 
+.mobile-projects img.attachment-custom.size.size-custom.size {
+  width: 100%; 
+}
 header .banner {
     margin-top: 0 !important;
 }
 .projects-header-text {
     text-align: center;
-    font-size: 9pt;
-    margin-top: 5%;
+    font-size: 5pt;
+    margin-top: 12%;
 }
 
 h1 {
