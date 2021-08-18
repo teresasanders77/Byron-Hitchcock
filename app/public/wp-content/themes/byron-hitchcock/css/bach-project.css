@@ -1,7 +1,6 @@
 .bach-body {
     background: #292d33;
     font: 12px/20px Arial;
-    padding: 20px;
     color: #ccc;
 }
 header.banner {
@@ -185,6 +184,19 @@ a:hover {
 .mobile-bach {
     display: block;
 }
+
+/* iPad landscape and portrait  */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+iframe {
+  width: 100%; 
+}
+.bach-header-text {
+  font-size: 10pt; 
+}
+
+}
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
     .bach-header-text {
         top: 10%;
@@ -207,6 +219,7 @@ a:hover {
 @media only screen and (min-device-width: 1366px) {
     .bach-header-text {
         top: 10%;
+        font-size: 10pt; 
     }
     .desktop-bach img {
         width: 100% !important;
@@ -219,7 +232,7 @@ a:hover {
     }
     .desktop-bach {
         display: block;
-        margin-top: 8%;
+        margin-top: 12%;
         padding-right: 5%;
         padding-left: 5%;
     }

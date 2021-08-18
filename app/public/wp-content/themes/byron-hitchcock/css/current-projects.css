@@ -132,6 +132,9 @@ h1 {
         margin-top: 8%;
         margin-bottom: -190px;
     }
+    .projects-header-text {
+      font-size: 10pt; 
+    }
     .current-projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -170,6 +173,9 @@ h1 {
     .header-text {
         margin-top: 8%;
         margin-bottom: -190px;
+    }
+    .projects-header-text {
+      font-size: 10pt; 
     }
     .current-projects {
         display: grid;

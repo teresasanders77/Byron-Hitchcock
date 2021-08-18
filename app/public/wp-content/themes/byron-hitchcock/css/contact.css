@@ -35,7 +35,7 @@ h1 {
     text-align: center;
 }
 img.attachment-custom.size.size-custom.size {
-  width: 85%; 
+  width: 75%; 
   height: auto; 
 }
 
@@ -102,13 +102,6 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label {
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-    }
-
-    .column {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-        flex: 1;
     }
     .image {
         margin-left: 5%;
