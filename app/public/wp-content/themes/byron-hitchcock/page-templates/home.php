@@ -12,12 +12,13 @@ get_header();
 <body class="home">
   <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div id="home_page_wrapper">
-      <div id="spacer">
-        <blockquote>
-          <em>"A FEARLESSLY EXPRESSIVE SOLOIST"</em>
-          <br>
-          <cite>- THE BOSTON GLOBE</cite>
-        </blockquote>
+      <blockquote>
+        <em>"A FEARLESSLY EXPRESSIVE SOLOIST"</em>
+        <br>
+        <cite>- THE BOSTON GLOBE</cite>
+      </blockquote>
+      <div class="desktop-background-image">
+        <div class="home-spacer"></div>
       </div>
       <div class="entry-content">
         <!-- <div class="content-wrapper"> -->
