@@ -16,8 +16,7 @@ html, body {
     font-size: 80%;
 
     color: #232629;
-    background: url(images/Home-page-resized.jpg) no-repeat center center fixed;
-    background-position: 80% 100%;
+    background: url(images/Home-page-mobile.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -242,6 +241,10 @@ footer {
     html {
         background-position: 50% 50%;
     }
+    .home {
+      background: url(images/Home-page-resized.jpg) no-repeat center center fixed;
+      background-position: 65% 85%;
+  }
     #menu-toggle {
         margin-left: 0;
     }
@@ -252,6 +255,10 @@ footer {
 
 /* Desktops */
 @media screen and (min-device-width: 1341px) {
+  .home {
+    background: url(images/Home-page-resized.jpg) no-repeat center center fixed;
+    background-position: 80% 100%;
+}
     #menu-toggle {
         margin-top: 3.5%;
         margin-left: 1%;
