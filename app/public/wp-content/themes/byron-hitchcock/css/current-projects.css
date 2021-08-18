@@ -29,7 +29,7 @@ header .banner {
 .projects-header-text {
     text-align: center;
     font-size: 5pt;
-    margin-top: 12%;
+    margin-top: 80px;
 }
 
 h1 {
@@ -218,6 +218,9 @@ h1 {
     }
     .desktop-projects img {
         display: block;
+    }
+    .projects-header-text {
+      font-size: 10pt; 
     }
     .current-projects .card .content p {
         font-size: 1.1em;
